@@ -31,9 +31,10 @@ git commit -m 'message'
 - `staging area`에 올라간 파일들을 저장
 
 ```shell
-git remot add origin <remoteurl>
+git remote add origin <remoteurl>
 ```
 - 원격 저장소 주소를 `origin`이라는 별명으로 저장
+- 한번 연결 후 이후에는 push 명령어만 사용하여 업로드
 
 ```shell
 git push origin master
